@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.remove-btn {
+    border: solid 2px;
+    background-color: rgb(214, 128, 142);
+}
+
+
+.bgpink{
+    background-color: rgb(213, 144, 156);
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.todocon {
+    margin: 0.5%;
+    font-size: 23px;
+}
+
+
+.flex-container {
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin: 10px;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    margin: 1%;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
